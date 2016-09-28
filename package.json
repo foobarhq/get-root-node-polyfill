@@ -1,0 +1,27 @@
+{
+  "name": "get-root-node-polyfill",
+  "version": "0.0.1",
+  "description": "Polyfill for the new Node method getRootNode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foobarhq/get-root-node-polyfill.git"
+  },
+  "keywords": [
+    "DOM",
+    "DOM4",
+    "Polyfill",
+    "getRootNode",
+    "rootNode",
+    "Node"
+  ],
+  "author": "Guylian Cox <gc@pictawall.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foobarhq/get-root-node-polyfill/issues"
+  },
+  "homepage": "https://github.com/foobarhq/get-root-node-polyfill#readme"
+}

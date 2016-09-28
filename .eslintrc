@@ -1,0 +1,9 @@
+{
+  "extends": "foobarhq/browser",
+  "rules": {
+    "strict": 0,
+    "no-var": 0,
+    "no-invalid-this": 0,
+    "import/no-commonjs": 0
+  }
+}

@@ -14,6 +14,9 @@
  * https://dom.spec.whatwg.org/#dom-node-getrootnode
  *
  * @memberof Node.prototype
+ * @param {!Object} [opt = {}] - Options.
+ * @param {!boolean} [opt.composed] - See above description.
+ * @returns {!Node} The root node.
  */
 function getRootNode(opt) {
   var composed = typeof opt === 'object' && Boolean(opt.composed);

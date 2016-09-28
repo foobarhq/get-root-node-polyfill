@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/foobarhq/get-root-node-polyfill/issues"
   },
-  "homepage": "https://github.com/foobarhq/get-root-node-polyfill#readme"
+  "homepage": "https://github.com/foobarhq/get-root-node-polyfill#readme",
+  "devDependencies": {
+    "eslint": "^3.6.1",
+    "eslint-config-foobarhq": "git@bitbucket.org:foobarhq/eslint-config-foobarhq.git"
+  }
 }

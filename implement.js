@@ -1,4 +1,6 @@
-if (!Object.prototype.hasOwnProperty.call(Node.prototype, 'getRootNode')) {
+var isImplemented = require('./is-implemented');
+
+if (!isImplemented()) {
   Object.defineProperty(Node.prototype, 'getRootNode', {
     enumerable: false,
     configurable: false,

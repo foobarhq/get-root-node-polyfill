@@ -57,3 +57,18 @@ describe('Node.prototype.getRootNode', function describeGetRootNode() {
     });
   }
 });
+
+describe('implement.js', function describeGetRootNode() {
+
+  it('implements Node.prototype.getRootNode if it does not exist', function testGetRootDetached() {
+    var isNative = typeof Node.prototype.getRootNode === 'function';
+
+    require('../implement');
+
+    if (isNative) {
+      expect(Node.prototype.getRootNode).to.not.equal(getRootNode, 'native getRootNode has been overwritten');
+    } else {
+      expect(Node.prototype.getRootNode).to.equal(getRootNode, 'getRootNode hasn\'t been polyfilled');
+    }
+  });
+});

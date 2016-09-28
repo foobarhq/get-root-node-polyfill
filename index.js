@@ -46,13 +46,6 @@ function isShadowRoot(node) {
   return typeof ShadowRoot === 'function' && node instanceof ShadowRoot;
 }
 
-if (!Object.prototype.hasOwnProperty.call(Node.prototype, 'getRootNode')) {
-  Object.defineProperty(Node.prototype, 'getRootNode', {
-    enumerable: false,
-    configurable: false,
-    value: getRootNode,
-  });
-}
 
 if (typeof module === 'object' && module.exports) {
   module.exports = getRootNode;

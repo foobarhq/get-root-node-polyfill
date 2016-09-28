@@ -4,6 +4,9 @@
     "strict": 0,
     "no-var": 0,
     "no-invalid-this": 0,
-    "import/no-commonjs": 0
+    "import/no-commonjs": 0,
+    "global-require": 0,
+    "vars-on-top": 0,
+    "prefer-arrow-callback": 0
   }
 }

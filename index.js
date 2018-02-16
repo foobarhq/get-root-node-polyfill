@@ -43,7 +43,7 @@ function getRoot(node) {
 }
 
 function isShadowRoot(node) {
-  return typeof ShadowRoot === 'function' && node instanceof ShadowRoot;
+  return node.nodeName === '#document-fragment' && node.constructor.name === 'ShadowRoot';
 }
 
 

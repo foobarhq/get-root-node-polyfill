@@ -1,5 +1,8 @@
 {
-  "extends": "foobarhq/browser",
+  "extends": "@foobarhq/eslint-config",
+  "env": {
+    "browser": true
+  },
   "rules": {
     "strict": 0,
     "no-var": 0,
@@ -7,6 +10,7 @@
     "import/no-commonjs": 0,
     "global-require": 0,
     "vars-on-top": 0,
-    "prefer-arrow-callback": 0
+    "prefer-arrow-callback": 0,
+    "lines-around-comment": 0
   }
 }

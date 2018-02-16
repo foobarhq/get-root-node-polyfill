@@ -46,7 +46,6 @@ function isShadowRoot(node) {
   return node.nodeName === '#document-fragment' && node.constructor.name === 'ShadowRoot';
 }
 
-
 if (typeof module === 'object' && module.exports) {
   module.exports = getRootNode;
 }

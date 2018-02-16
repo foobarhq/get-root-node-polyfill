@@ -4,7 +4,8 @@
   "description": "Polyfill for the new Node method getRootNode",
   "main": "index.js",
   "scripts": {
-    "test": "karma start karma.conf.js --single-run",
+    "test:eslint": "eslint .",
+    "test": "karma start karma.conf.js --single-run && npm run test:eslint",
     "test:watch": "karma start karma.conf.js --single-run"
   },
   "repository": {
@@ -30,7 +31,7 @@
     "bdd-lazy-var": "^1.2.0",
     "chai": "^3.5.0",
     "dirty-chai": "^1.2.2",
-    "eslint": "^3.19.0",
+    "eslint": "^4.17.0",
     "istanbul-instrumenter-loader": "^1.0.0",
     "karma": "^1.3.0",
     "karma-chrome-launcher": "^2.0.0",

@@ -1,3 +1,7 @@
+declare interface GetRootNodeOptions {
+    composed?: boolean;
+}
+
 declare interface Node {
-    getRootNode (): Node;
+    getRootNode(options?: GetRootNodeOptions): Node;
 }

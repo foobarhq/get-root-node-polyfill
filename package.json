@@ -1,6 +1,6 @@
 {
   "name": "get-root-node-polyfill",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Polyfill for the new Node method getRootNode",
   "main": "index.js",
   "scripts": {

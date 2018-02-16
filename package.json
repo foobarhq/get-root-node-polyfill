@@ -20,7 +20,7 @@
     "rootNode",
     "Node"
   ],
-  "author": "Guylian Cox <gc@pictawall.com>",
+  "author": "Guylian Cox <guyliancox@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/foobarhq/get-root-node-polyfill/issues"
